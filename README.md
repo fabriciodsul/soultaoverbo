@@ -30,7 +30,7 @@ exemplo.ts  debounce → atraso intencional
 |--------|------|-----------|
 | `@soltaoverbo/core` | [npm](https://www.npmjs.com/package/@soltaoverbo/core) | Parser, injetor de comentários e sistema de repetição espaçada |
 | `@soltaoverbo/cli` | [npm](https://www.npmjs.com/package/@soltaoverbo/cli) | Interface de linha de comando |
-| `verbo` (VS Code) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=verbo-dev.verbo) | Extensão para VS Code com ghost text inline |
+| `verbo` (VS Code) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=verbo-dev.verbo) *(em breve)* | Extensão para VS Code com ghost text inline |
 
 ---
 
@@ -44,11 +44,13 @@ npm install -g @soltaoverbo/cli
 
 ### Extensão VS Code
 
-Instale pelo [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=verbo-dev.verbo) ou diretamente no VS Code:
+Instale diretamente no VS Code:
 
 ```
 Ctrl+P → ext install verbo-dev.verbo
 ```
+
+Ou baixe o `.vsix` na [página de releases](https://github.com/fabriciodsul/soltaoverbo/releases) e instale via `Extensions → ··· → Install from VSIX`.
 
 ### Clonar e buildar
 
@@ -142,8 +144,6 @@ O verbo controla quantas vezes você viu cada termo. Após 5 sessões diferentes
 ---
 
 ## Extensão VS Code
-
-Instale em [marketplace.visualstudio.com/items?itemName=verbo-dev.verbo](https://marketplace.visualstudio.com/items?itemName=verbo-dev.verbo).
 
 A extensão exibe ghost text inline ao lado das linhas com termos técnicos, sem modificar o arquivo.
 
