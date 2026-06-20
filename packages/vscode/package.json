@@ -2,7 +2,7 @@
   "name": "verbo",
   "displayName": "verbo.dev — Inglês técnico passivo",
   "description": "Aprenda inglês técnico enquanto você codifica, sem sair do fluxo.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "verbo-dev",
   "engines": { "vscode": "^1.85.0" },
   "categories": ["Education", "Other"],
