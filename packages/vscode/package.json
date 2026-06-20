@@ -1,0 +1,64 @@
+{
+  "name": "verbo",
+  "displayName": "verbo.dev — Inglês técnico passivo",
+  "description": "Aprenda inglês técnico enquanto você codifica, sem sair do fluxo.",
+  "version": "0.1.0",
+  "publisher": "verbo-dev",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Education", "Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "verbo.stats",
+        "title": "Verbo: Ver Progresso de Aprendizado"
+      },
+      {
+        "command": "verbo.reset",
+        "title": "Verbo: Resetar Histórico"
+      },
+      {
+        "command": "verbo.toggle",
+        "title": "Verbo: Ativar / Desativar Anotações"
+      },
+      {
+        "command": "verbo.decorateNow",
+        "title": "Verbo: Anotar Arquivo Atual Agora"
+      }
+    ],
+    "configuration": {
+      "title": "verbo",
+      "properties": {
+        "verbo.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Ativa ou desativa as anotações inline de inglês técnico."
+        },
+        "verbo.languages": {
+          "type": "array",
+          "default": [
+            "typescript", "typescriptreact",
+            "javascript", "javascriptreact",
+            "python", "go", "rust",
+            "java", "kotlin", "ruby", "php", "csharp"
+          ],
+          "description": "Linguagens onde as anotações aparecem."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "package": "vsce package --no-dependencies"
+  },
+  "dependencies": {
+    "@verbo/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "tsup": "^8.3.5",
+    "@types/node": "^22.10.1"
+  }
+}

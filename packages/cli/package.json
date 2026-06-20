@@ -1,0 +1,22 @@
+{
+  "name": "@verbo/cli",
+  "version": "0.1.0",
+  "description": "CLI para verbo.dev — aprenda inglês técnico passivamente",
+  "bin": {
+    "verbo": "./dist/bin.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@verbo/core": "workspace:*",
+    "chokidar": "^3.6.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "@types/node": "^22.10.1"
+  }
+}

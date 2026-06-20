@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-core",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["--filter", "@verbo/core", "build"],
+      "options": {
+        "shell": { "executable": "cmd.exe", "args": ["/c"] }
+      },
+      "presentation": { "reveal": "silent" },
+      "problemMatcher": []
+    },
+    {
+      "label": "build-vscode",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["--filter", "@verbo/vscode", "build"],
+      "dependsOn": ["build-core"],
+      "options": {
+        "shell": { "executable": "cmd.exe", "args": ["/c"] }
+      },
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "silent" },
+      "problemMatcher": []
+    }
+  ]
+}
