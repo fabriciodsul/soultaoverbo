@@ -1,0 +1,200 @@
+[
+  {
+    "id": "callback",
+    "term": "callback",
+    "translation": "função de retorno / chamada de volta",
+    "explanation": "função passada como argumento para ser executada quando algo terminar",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["async", "function", "event"]
+  },
+  {
+    "id": "promise",
+    "term": "Promise",
+    "translation": "promessa",
+    "explanation": "representa um valor que pode estar disponível agora, no futuro ou nunca",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["async", "javascript"]
+  },
+  {
+    "id": "async-await",
+    "term": "async/await",
+    "translation": "assíncrono / aguardar",
+    "explanation": "sintaxe que permite escrever código assíncrono como se fosse síncrono",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["async", "javascript", "typescript"]
+  },
+  {
+    "id": "closure",
+    "term": "closure",
+    "translation": "fechamento / escopo capturado",
+    "explanation": "função que lembra e acessa variáveis do escopo onde foi criada, mesmo após o escopo fechar",
+    "category": "general",
+    "level": "intermediate",
+    "tags": ["scope", "function", "javascript"]
+  },
+  {
+    "id": "scope",
+    "term": "scope",
+    "translation": "escopo",
+    "explanation": "região do código onde uma variável existe e pode ser acessada",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["variable", "function", "block"]
+  },
+  {
+    "id": "interface",
+    "term": "interface",
+    "translation": "interface / contrato de tipo",
+    "explanation": "define a forma que um objeto deve ter, sem implementação — só a assinatura",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["typescript", "type", "oop"]
+  },
+  {
+    "id": "generic",
+    "term": "generic",
+    "translation": "genérico / tipo parametrizado",
+    "explanation": "permite criar funções e classes que funcionam com qualquer tipo, definido na hora do uso",
+    "category": "general",
+    "level": "intermediate",
+    "tags": ["typescript", "type", "reusability"]
+  },
+  {
+    "id": "enum",
+    "term": "enum",
+    "translation": "enumeração / conjunto nomeado",
+    "explanation": "grupo de constantes com nomes legíveis, ex: Status.ACTIVE em vez de 1",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["typescript", "constant", "type"]
+  },
+  {
+    "id": "recursion",
+    "term": "recursion",
+    "translation": "recursão",
+    "explanation": "quando uma função chama a si mesma para resolver um problema dividindo em casos menores",
+    "category": "general",
+    "level": "intermediate",
+    "tags": ["algorithm", "function", "stack"]
+  },
+  {
+    "id": "immutable",
+    "term": "immutable",
+    "translation": "imutável",
+    "explanation": "objeto que não pode ser alterado após criado — qualquer mudança cria uma nova cópia",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["functional", "state", "data"]
+  },
+  {
+    "id": "refactor",
+    "term": "refactor",
+    "translation": "refatorar",
+    "explanation": "reestruturar o código interno sem mudar o comportamento externo — melhora legibilidade",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["code-quality", "maintenance"]
+  },
+  {
+    "id": "boilerplate",
+    "term": "boilerplate",
+    "translation": "código padrão / repetitivo",
+    "explanation": "blocos de código necessários mas sem lógica de negócio, repetidos em vários lugares",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["code-quality", "pattern"]
+  },
+  {
+    "id": "singleton",
+    "term": "singleton",
+    "translation": "instância única",
+    "explanation": "padrão de design que garante que uma classe tenha só uma instância durante toda a execução",
+    "category": "general",
+    "level": "intermediate",
+    "tags": ["design-pattern", "oop"]
+  },
+  {
+    "id": "dependency-injection",
+    "term": "dependency injection",
+    "translation": "injeção de dependência",
+    "explanation": "passar as dependências de uma classe de fora, em vez de a classe criá-las internamente",
+    "category": "general",
+    "level": "intermediate",
+    "tags": ["design-pattern", "oop", "testability"]
+  },
+  {
+    "id": "override",
+    "term": "override",
+    "translation": "sobrescrever",
+    "explanation": "redefinir o comportamento de um método herdado da classe pai na classe filha",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["oop", "inheritance"]
+  },
+  {
+    "id": "polymorphism",
+    "term": "polymorphism",
+    "translation": "polimorfismo",
+    "explanation": "capacidade de um método ter comportamentos diferentes dependendo do tipo do objeto",
+    "category": "general",
+    "level": "intermediate",
+    "tags": ["oop", "inheritance", "abstraction"]
+  },
+  {
+    "id": "iterator",
+    "term": "iterator",
+    "translation": "iterador",
+    "explanation": "objeto que permite percorrer uma coleção item por item com controle de posição",
+    "category": "general",
+    "level": "intermediate",
+    "tags": ["pattern", "collection", "loop"]
+  },
+  {
+    "id": "type-guard",
+    "term": "type guard",
+    "translation": "guarda de tipo",
+    "explanation": "verificação em runtime que diz ao TypeScript qual é o tipo exato de uma variável",
+    "category": "general",
+    "level": "intermediate",
+    "tags": ["typescript", "type", "runtime"]
+  },
+  {
+    "id": "spread-operator",
+    "term": "spread operator",
+    "translation": "operador de espalhamento",
+    "explanation": "expande um array ou objeto nos seus elementos individuais usando ...",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["javascript", "array", "object"]
+  },
+  {
+    "id": "destructuring",
+    "term": "destructuring",
+    "translation": "desestruturação",
+    "explanation": "extrai propriedades de objetos ou itens de arrays em variáveis separadas de forma concisa",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["javascript", "array", "object"]
+  },
+  {
+    "id": "optional-chaining",
+    "term": "optional chaining",
+    "translation": "encadeamento opcional",
+    "explanation": "acessa propriedades aninhadas sem quebrar se algum valor for null ou undefined, usando ?.",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["javascript", "typescript", "null-safety"]
+  },
+  {
+    "id": "nullish-coalescing",
+    "term": "nullish coalescing",
+    "translation": "coalescência nula",
+    "explanation": "retorna o valor da direita se o da esquerda for null ou undefined, usando ??",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["javascript", "typescript", "null-safety"]
+  }
+]

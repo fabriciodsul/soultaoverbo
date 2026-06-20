@@ -1,0 +1,191 @@
+[
+  {
+    "id": "query",
+    "term": "query",
+    "translation": "consulta / pergunta ao banco",
+    "explanation": "instrução enviada ao banco de dados para buscar, inserir, atualizar ou deletar dados",
+    "category": "data",
+    "level": "beginner",
+    "tags": ["sql", "database", "crud"]
+  },
+  {
+    "id": "index",
+    "term": "index",
+    "translation": "índice",
+    "explanation": "estrutura auxiliar que acelera buscas num campo — como o índice de um livro para localizar páginas",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["sql", "performance", "database"]
+  },
+  {
+    "id": "transaction",
+    "term": "transaction",
+    "translation": "transação",
+    "explanation": "conjunto de operações que executam como uma unidade — tudo acontece ou nada acontece",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["sql", "acid", "reliability"]
+  },
+  {
+    "id": "foreign-key",
+    "term": "foreign key",
+    "translation": "chave estrangeira",
+    "explanation": "coluna que referencia a chave primária de outra tabela, criando um relacionamento",
+    "category": "data",
+    "level": "beginner",
+    "tags": ["sql", "relationship", "constraint"]
+  },
+  {
+    "id": "primary-key",
+    "term": "primary key",
+    "translation": "chave primária",
+    "explanation": "coluna ou conjunto de colunas que identifica unicamente cada linha de uma tabela",
+    "category": "data",
+    "level": "beginner",
+    "tags": ["sql", "identity", "constraint"]
+  },
+  {
+    "id": "schema",
+    "term": "schema",
+    "translation": "esquema / estrutura do banco",
+    "explanation": "define quais tabelas existem, suas colunas, tipos e relacionamentos",
+    "category": "data",
+    "level": "beginner",
+    "tags": ["sql", "structure", "database"]
+  },
+  {
+    "id": "join",
+    "term": "join",
+    "translation": "junção / combinação de tabelas",
+    "explanation": "combina linhas de duas ou mais tabelas com base num campo em comum",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["sql", "relationship", "query"]
+  },
+  {
+    "id": "aggregate",
+    "term": "aggregate function",
+    "translation": "função de agregação",
+    "explanation": "calcula um único valor a partir de múltiplos registros — ex: SUM, COUNT, AVG, MAX",
+    "category": "data",
+    "level": "beginner",
+    "tags": ["sql", "query", "analytics"]
+  },
+  {
+    "id": "normalization",
+    "term": "normalization",
+    "translation": "normalização",
+    "explanation": "organiza o banco eliminando redundâncias — cada dado fica em um único lugar",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["sql", "design", "structure"]
+  },
+  {
+    "id": "denormalization",
+    "term": "denormalization",
+    "translation": "desnormalização",
+    "explanation": "duplica dados intencionalmente para ganhar performance de leitura, sacrificando espaço",
+    "category": "data",
+    "level": "advanced",
+    "tags": ["performance", "design", "tradeoff"]
+  },
+  {
+    "id": "acid",
+    "term": "ACID",
+    "translation": "propriedades de transação confiável",
+    "explanation": "Atomicidade, Consistência, Isolamento e Durabilidade — garantias de uma transação segura",
+    "category": "data",
+    "level": "advanced",
+    "tags": ["transaction", "reliability", "database"]
+  },
+  {
+    "id": "nosql",
+    "term": "NoSQL",
+    "translation": "banco não relacional",
+    "explanation": "banco sem esquema fixo nem SQL — mais flexível e escalável horizontalmente, ex: MongoDB",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["database", "scalability", "mongodb"]
+  },
+  {
+    "id": "sharding",
+    "term": "sharding",
+    "translation": "fragmentação horizontal",
+    "explanation": "divide os dados entre múltiplos servidores de banco para escalar além de uma máquina",
+    "category": "data",
+    "level": "advanced",
+    "tags": ["scalability", "database", "distribution"]
+  },
+  {
+    "id": "replication",
+    "term": "replication",
+    "translation": "replicação",
+    "explanation": "copia os dados em múltiplos servidores para alta disponibilidade e leitura distribuída",
+    "category": "data",
+    "level": "advanced",
+    "tags": ["availability", "database", "redundancy"]
+  },
+  {
+    "id": "cursor",
+    "term": "cursor",
+    "translation": "cursor / ponteiro de resultado",
+    "explanation": "ponteiro que percorre os resultados de uma query linha por linha sem carregar tudo na memória",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["sql", "query", "memory"]
+  },
+  {
+    "id": "stored-procedure",
+    "term": "stored procedure",
+    "translation": "procedimento armazenado",
+    "explanation": "função SQL salva e executada diretamente no banco, com lógica de negócio pré-compilada",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["sql", "database", "function"]
+  },
+  {
+    "id": "view",
+    "term": "view",
+    "translation": "visão / tabela virtual",
+    "explanation": "query salva como se fosse uma tabela — simplifica consultas complexas sem duplicar dados",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["sql", "query", "abstraction"]
+  },
+  {
+    "id": "trigger",
+    "term": "trigger",
+    "translation": "gatilho de banco",
+    "explanation": "ação automática executada pelo banco quando ocorre um evento (INSERT, UPDATE, DELETE)",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["sql", "automation", "event"]
+  },
+  {
+    "id": "connection-pool",
+    "term": "connection pool",
+    "translation": "pool de conexões",
+    "explanation": "conjunto de conexões abertas e reutilizáveis ao banco — evita o custo de abrir uma nova a cada query",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["performance", "database", "connection"]
+  },
+  {
+    "id": "upsert",
+    "term": "upsert",
+    "translation": "inserir ou atualizar",
+    "explanation": "insere o registro se não existir, ou atualiza se já existir — combinação de INSERT + UPDATE",
+    "category": "data",
+    "level": "intermediate",
+    "tags": ["sql", "crud", "operation"]
+  },
+  {
+    "id": "materialized-view",
+    "term": "materialized view",
+    "translation": "visão materializada",
+    "explanation": "visão cujo resultado é armazenado fisicamente e atualizado periodicamente — muito mais rápida para leitura",
+    "category": "data",
+    "level": "advanced",
+    "tags": ["sql", "performance", "cache"]
+  }
+]

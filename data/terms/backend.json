@@ -1,0 +1,191 @@
+[
+  {
+    "id": "middleware",
+    "term": "middleware",
+    "translation": "intermediário / camada de processamento",
+    "explanation": "função que intercepta a requisição antes de chegar no handler final — ex: auth, logging",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["http", "express", "nestjs"]
+  },
+  {
+    "id": "endpoint",
+    "term": "endpoint",
+    "translation": "ponto de acesso / rota da API",
+    "explanation": "URL específica que a API expõe para receber e responder requisições",
+    "category": "backend",
+    "level": "beginner",
+    "tags": ["api", "rest", "http"]
+  },
+  {
+    "id": "handler",
+    "term": "handler",
+    "translation": "manipulador / função de resposta",
+    "explanation": "função responsável por processar uma requisição e retornar a resposta",
+    "category": "backend",
+    "level": "beginner",
+    "tags": ["http", "function", "api"]
+  },
+  {
+    "id": "payload",
+    "term": "payload",
+    "translation": "carga útil / dados da requisição",
+    "explanation": "conjunto de dados enviados no corpo de uma requisição HTTP (geralmente em JSON)",
+    "category": "backend",
+    "level": "beginner",
+    "tags": ["http", "json", "api"]
+  },
+  {
+    "id": "jwt",
+    "term": "JWT",
+    "translation": "token de identidade",
+    "explanation": "token assinado que prova autoria sem precisar consultar o banco a cada requisição",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["auth", "security", "token"]
+  },
+  {
+    "id": "oauth",
+    "term": "OAuth",
+    "translation": "protocolo de autorização delegada",
+    "explanation": "permite que um app acesse recursos em nome do usuário sem ver a senha dele",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["auth", "security", "protocol"]
+  },
+  {
+    "id": "rate-limiting",
+    "term": "rate limiting",
+    "translation": "limitação de taxa / controle de requisições",
+    "explanation": "bloqueia ou atrasa requisições quando um cliente ultrapassa um número por período de tempo",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["security", "api", "performance"]
+  },
+  {
+    "id": "webhook",
+    "term": "webhook",
+    "translation": "gatilho HTTP / notificação via callback",
+    "explanation": "URL que você registra num serviço externo para ele te chamar quando algo acontecer",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["http", "event", "integration"]
+  },
+  {
+    "id": "cors",
+    "term": "CORS",
+    "translation": "compartilhamento de recursos entre origens",
+    "explanation": "mecanismo que controla quais domínios externos podem acessar sua API",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["security", "http", "browser"]
+  },
+  {
+    "id": "idempotent",
+    "term": "idempotent",
+    "translation": "idempotente / resultado fixo",
+    "explanation": "operação que dá o mesmo resultado independente de quantas vezes for repetida — ex: PUT",
+    "category": "backend",
+    "level": "advanced",
+    "tags": ["rest", "api", "design"]
+  },
+  {
+    "id": "orm",
+    "term": "ORM",
+    "translation": "mapeamento objeto-relacional",
+    "explanation": "abstrai o SQL mapeando tabelas do banco para classes e objetos no código",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["database", "abstraction", "sql"]
+  },
+  {
+    "id": "migration",
+    "term": "migration",
+    "translation": "migração de banco",
+    "explanation": "script versionado que altera o esquema do banco de forma controlada e reversível",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["database", "schema", "versioning"]
+  },
+  {
+    "id": "seed",
+    "term": "seed",
+    "translation": "semente / dados iniciais",
+    "explanation": "script que popula o banco com dados de desenvolvimento ou teste",
+    "category": "backend",
+    "level": "beginner",
+    "tags": ["database", "development", "testing"]
+  },
+  {
+    "id": "authentication",
+    "term": "authentication",
+    "translation": "autenticação / verificação de identidade",
+    "explanation": "processo de confirmar que o usuário é quem diz ser — ex: login com senha",
+    "category": "backend",
+    "level": "beginner",
+    "tags": ["security", "auth", "user"]
+  },
+  {
+    "id": "authorization",
+    "term": "authorization",
+    "translation": "autorização / controle de permissão",
+    "explanation": "processo de verificar se o usuário autenticado tem permissão para fazer aquela ação",
+    "category": "backend",
+    "level": "beginner",
+    "tags": ["security", "auth", "permission"]
+  },
+  {
+    "id": "cache",
+    "term": "cache",
+    "translation": "armazenamento temporário",
+    "explanation": "guarda resultados de operações caras para servir mais rápido nas próximas chamadas",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["performance", "memory", "redis"]
+  },
+  {
+    "id": "queue",
+    "term": "queue",
+    "translation": "fila de tarefas",
+    "explanation": "armazena tarefas para serem processadas em background de forma assíncrona",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["async", "background", "scalability"]
+  },
+  {
+    "id": "rls",
+    "term": "RLS",
+    "translation": "segurança em nível de linha",
+    "explanation": "regras no banco que filtram quais linhas cada usuário pode ver ou modificar",
+    "category": "backend",
+    "level": "advanced",
+    "tags": ["database", "security", "supabase"]
+  },
+  {
+    "id": "graceful-shutdown",
+    "term": "graceful shutdown",
+    "translation": "encerramento elegante",
+    "explanation": "processo de parar o servidor sem derrubar requisições em andamento — aguarda finalização",
+    "category": "backend",
+    "level": "advanced",
+    "tags": ["operations", "reliability", "server"]
+  },
+  {
+    "id": "pagination",
+    "term": "pagination",
+    "translation": "paginação",
+    "explanation": "divide um conjunto grande de resultados em páginas menores para não sobrecarregar",
+    "category": "backend",
+    "level": "beginner",
+    "tags": ["api", "database", "performance"]
+  },
+  {
+    "id": "serialization",
+    "term": "serialization",
+    "translation": "serialização",
+    "explanation": "converte um objeto em memória para um formato transmissível (JSON, XML, binário)",
+    "category": "backend",
+    "level": "intermediate",
+    "tags": ["data", "json", "api"]
+  }
+]

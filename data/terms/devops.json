@@ -1,0 +1,191 @@
+[
+  {
+    "id": "pipeline",
+    "term": "pipeline",
+    "translation": "esteira / sequência automatizada",
+    "explanation": "série de etapas automáticas que rodam ao fazer push: lint → test → build → deploy",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["ci-cd", "automation", "github-actions"]
+  },
+  {
+    "id": "container",
+    "term": "container",
+    "translation": "contêiner / ambiente isolado",
+    "explanation": "empacota o app e suas dependências para rodar de forma idêntica em qualquer máquina",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["docker", "isolation", "deployment"]
+  },
+  {
+    "id": "image",
+    "term": "image",
+    "translation": "imagem / snapshot do ambiente",
+    "explanation": "arquivo somente leitura com tudo que o contêiner precisa para rodar — como um template",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["docker", "container", "build"]
+  },
+  {
+    "id": "registry",
+    "term": "registry",
+    "translation": "registro / repositório de imagens",
+    "explanation": "serviço que armazena e distribui imagens Docker — ex: Docker Hub, GitHub Container Registry",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["docker", "image", "distribution"]
+  },
+  {
+    "id": "orchestration",
+    "term": "orchestration",
+    "translation": "orquestração",
+    "explanation": "gerencia automaticamente múltiplos contêineres: escalonamento, rede, restart — ex: Kubernetes",
+    "category": "devops",
+    "level": "advanced",
+    "tags": ["kubernetes", "container", "scalability"]
+  },
+  {
+    "id": "deployment",
+    "term": "deployment",
+    "translation": "implantação / publicação",
+    "explanation": "processo de colocar uma nova versão do software em funcionamento no ambiente de produção",
+    "category": "devops",
+    "level": "beginner",
+    "tags": ["ci-cd", "release", "production"]
+  },
+  {
+    "id": "rollback",
+    "term": "rollback",
+    "translation": "reversão / volta à versão anterior",
+    "explanation": "processo de desfazer um deploy com problema e restaurar a versão estável anterior",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["deployment", "reliability", "incident"]
+  },
+  {
+    "id": "health-check",
+    "term": "health check",
+    "translation": "verificação de saúde",
+    "explanation": "endpoint que o orquestrador chama periodicamente para saber se o serviço está funcionando",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["monitoring", "reliability", "kubernetes"]
+  },
+  {
+    "id": "load-balancer",
+    "term": "load balancer",
+    "translation": "balanceador de carga",
+    "explanation": "distribui requisições entre múltiplas instâncias do serviço para não sobrecarregar nenhuma",
+    "category": "devops",
+    "level": "advanced",
+    "tags": ["scalability", "network", "availability"]
+  },
+  {
+    "id": "reverse-proxy",
+    "term": "reverse proxy",
+    "translation": "proxy reverso",
+    "explanation": "servidor que fica na frente do app e repassa requisições — ex: Nginx, Caddy",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["network", "nginx", "security"]
+  },
+  {
+    "id": "environment-variable",
+    "term": "environment variable",
+    "translation": "variável de ambiente",
+    "explanation": "configuração externa injetada no processo — mantém segredos e configs fora do código",
+    "category": "devops",
+    "level": "beginner",
+    "tags": ["config", "security", "12factor"]
+  },
+  {
+    "id": "secret",
+    "term": "secret",
+    "translation": "segredo / credencial protegida",
+    "explanation": "dado sensível (senha, token, chave) gerenciado separadamente e injetado com segurança",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["security", "config", "kubernetes"]
+  },
+  {
+    "id": "artifact",
+    "term": "artifact",
+    "translation": "artefato / produto do build",
+    "explanation": "arquivo gerado pelo processo de build e usado no deploy — ex: .jar, imagem Docker, .zip",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["build", "ci-cd", "deployment"]
+  },
+  {
+    "id": "staging",
+    "term": "staging",
+    "translation": "ambiente de homologação",
+    "explanation": "ambiente idêntico à produção usado para testar antes de liberar para os usuários reais",
+    "category": "devops",
+    "level": "beginner",
+    "tags": ["environment", "testing", "deployment"]
+  },
+  {
+    "id": "canary-release",
+    "term": "canary release",
+    "translation": "lançamento gradual / canário",
+    "explanation": "envia a nova versão para uma pequena % dos usuários antes de liberar para todos",
+    "category": "devops",
+    "level": "advanced",
+    "tags": ["deployment", "risk", "strategy"]
+  },
+  {
+    "id": "iac",
+    "term": "infrastructure as code",
+    "translation": "infraestrutura como código",
+    "explanation": "define servidores, redes e serviços em arquivos de código versionados — ex: Terraform",
+    "category": "devops",
+    "level": "advanced",
+    "tags": ["terraform", "automation", "versioning"]
+  },
+  {
+    "id": "observability",
+    "term": "observability",
+    "translation": "observabilidade",
+    "explanation": "capacidade de entender o estado interno do sistema pelos dados que ele emite: logs, métricas e traces",
+    "category": "devops",
+    "level": "advanced",
+    "tags": ["monitoring", "logging", "tracing"]
+  },
+  {
+    "id": "uptime",
+    "term": "uptime",
+    "translation": "tempo disponível / disponibilidade",
+    "explanation": "percentual de tempo que o serviço ficou acessível — 99,9% = no máximo 8h indisponível por ano",
+    "category": "devops",
+    "level": "beginner",
+    "tags": ["reliability", "sla", "monitoring"]
+  },
+  {
+    "id": "sla",
+    "term": "SLA",
+    "translation": "acordo de nível de serviço",
+    "explanation": "contrato que define o mínimo de disponibilidade e performance garantida ao cliente",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["reliability", "business", "uptime"]
+  },
+  {
+    "id": "blue-green",
+    "term": "blue-green deployment",
+    "translation": "deploy azul-verde / troca de ambiente",
+    "explanation": "mantém dois ambientes idênticos e troca o tráfego entre eles instantaneamente no deploy",
+    "category": "devops",
+    "level": "advanced",
+    "tags": ["deployment", "zero-downtime", "strategy"]
+  },
+  {
+    "id": "ttl",
+    "term": "TTL",
+    "translation": "tempo de vida / validade",
+    "explanation": "quanto tempo um dado, registro DNS ou cache fica válido antes de expirar automaticamente",
+    "category": "devops",
+    "level": "intermediate",
+    "tags": ["cache", "dns", "expiration"]
+  }
+]

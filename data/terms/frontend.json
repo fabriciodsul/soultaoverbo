@@ -1,0 +1,191 @@
+[
+  {
+    "id": "render",
+    "term": "render",
+    "translation": "renderizar / gerar o visual",
+    "explanation": "transformar código (JSX, HTML, componentes) em elementos visuais na tela",
+    "category": "frontend",
+    "level": "beginner",
+    "tags": ["react", "dom", "ui"]
+  },
+  {
+    "id": "hydration",
+    "term": "hydration",
+    "translation": "hidratação",
+    "explanation": "processo de adicionar JavaScript ao HTML já renderizado pelo servidor, tornando-o interativo",
+    "category": "frontend",
+    "level": "advanced",
+    "tags": ["ssr", "nextjs", "performance"]
+  },
+  {
+    "id": "props",
+    "term": "props",
+    "translation": "propriedades / entradas do componente",
+    "explanation": "dados passados de um componente pai para um filho — são somente leitura",
+    "category": "frontend",
+    "level": "beginner",
+    "tags": ["react", "component", "data-flow"]
+  },
+  {
+    "id": "state",
+    "term": "state",
+    "translation": "estado",
+    "explanation": "dados internos de um componente que, quando mudam, causam uma nova renderização",
+    "category": "frontend",
+    "level": "beginner",
+    "tags": ["react", "component", "reactivity"]
+  },
+  {
+    "id": "hook",
+    "term": "hook",
+    "translation": "gancho / função especial do React",
+    "explanation": "função que começa com 'use' e permite usar estado e efeitos em componentes funcionais",
+    "category": "frontend",
+    "level": "intermediate",
+    "tags": ["react", "function", "state"]
+  },
+  {
+    "id": "memoization",
+    "term": "memoization",
+    "translation": "memoização / cache de resultado",
+    "explanation": "armazena o resultado de uma função para evitar recalcular quando os inputs são os mesmos",
+    "category": "frontend",
+    "level": "intermediate",
+    "tags": ["performance", "react", "optimization"]
+  },
+  {
+    "id": "lazy-loading",
+    "term": "lazy loading",
+    "translation": "carregamento tardio / sob demanda",
+    "explanation": "carrega um recurso só quando realmente necessário, não no início — melhora performance inicial",
+    "category": "frontend",
+    "level": "intermediate",
+    "tags": ["performance", "bundle", "ux"]
+  },
+  {
+    "id": "bundle",
+    "term": "bundle",
+    "translation": "pacote / arquivo compilado",
+    "explanation": "arquivo único gerado juntando e comprimindo todos os módulos JS do projeto",
+    "category": "frontend",
+    "level": "beginner",
+    "tags": ["build", "webpack", "vite"]
+  },
+  {
+    "id": "tree-shaking",
+    "term": "tree shaking",
+    "translation": "eliminação de código morto",
+    "explanation": "remove automaticamente código importado mas não utilizado do bundle final",
+    "category": "frontend",
+    "level": "advanced",
+    "tags": ["build", "performance", "bundle"]
+  },
+  {
+    "id": "ssr",
+    "term": "SSR",
+    "translation": "renderização no servidor",
+    "explanation": "gera o HTML completo no servidor antes de enviar para o browser — melhor SEO",
+    "category": "frontend",
+    "level": "intermediate",
+    "tags": ["nextjs", "performance", "seo"]
+  },
+  {
+    "id": "ssg",
+    "term": "SSG",
+    "translation": "geração estática",
+    "explanation": "gera HTML no momento do build, não na requisição — resultado é um arquivo estático",
+    "category": "frontend",
+    "level": "intermediate",
+    "tags": ["nextjs", "performance", "static"]
+  },
+  {
+    "id": "virtual-dom",
+    "term": "virtual DOM",
+    "translation": "DOM virtual / representação em memória",
+    "explanation": "cópia leve do DOM real que o React usa para calcular só o que precisa ser atualizado",
+    "category": "frontend",
+    "level": "intermediate",
+    "tags": ["react", "performance", "dom"]
+  },
+  {
+    "id": "debounce",
+    "term": "debounce",
+    "translation": "atraso intencional",
+    "explanation": "adia a execução de uma função até que o usuário pare de chamar por X milissegundos",
+    "category": "frontend",
+    "level": "intermediate",
+    "tags": ["performance", "event", "ux"]
+  },
+  {
+    "id": "throttle",
+    "term": "throttle",
+    "translation": "limitador de frequência",
+    "explanation": "garante que uma função execute no máximo uma vez a cada X milissegundos, não importa quantas chamadas",
+    "category": "frontend",
+    "level": "intermediate",
+    "tags": ["performance", "event", "ux"]
+  },
+  {
+    "id": "responsive",
+    "term": "responsive",
+    "translation": "responsivo / adaptável",
+    "explanation": "design que se adapta automaticamente a diferentes tamanhos de tela (mobile, tablet, desktop)",
+    "category": "frontend",
+    "level": "beginner",
+    "tags": ["css", "design", "mobile"]
+  },
+  {
+    "id": "viewport",
+    "term": "viewport",
+    "translation": "área visível da tela",
+    "explanation": "região do browser que o usuário consegue ver — base para unidades vh, vw e media queries",
+    "category": "frontend",
+    "level": "beginner",
+    "tags": ["css", "responsive", "browser"]
+  },
+  {
+    "id": "event-listener",
+    "term": "event listener",
+    "translation": "escutador de evento",
+    "explanation": "função registrada para ser chamada quando um evento específico acontece (click, scroll, etc)",
+    "category": "frontend",
+    "level": "beginner",
+    "tags": ["dom", "event", "javascript"]
+  },
+  {
+    "id": "side-effect",
+    "term": "side effect",
+    "translation": "efeito colateral",
+    "explanation": "qualquer coisa que acontece fora da renderização: fetch, timer, acesso ao DOM, localStorage",
+    "category": "frontend",
+    "level": "intermediate",
+    "tags": ["react", "useEffect", "pattern"]
+  },
+  {
+    "id": "accessibility",
+    "term": "accessibility",
+    "translation": "acessibilidade",
+    "explanation": "práticas que permitem que pessoas com deficiência usem a interface (ex: leitores de tela, contraste)",
+    "category": "frontend",
+    "level": "intermediate",
+    "tags": ["a11y", "ux", "html"]
+  },
+  {
+    "id": "code-splitting",
+    "term": "code splitting",
+    "translation": "divisão de código",
+    "explanation": "divide o bundle em partes menores carregadas sob demanda para acelerar o carregamento inicial",
+    "category": "frontend",
+    "level": "advanced",
+    "tags": ["performance", "bundle", "lazy-loading"]
+  },
+  {
+    "id": "compound-component",
+    "term": "compound component",
+    "translation": "componente composto",
+    "explanation": "padrão onde vários componentes trabalham juntos compartilhando estado interno implícito",
+    "category": "frontend",
+    "level": "advanced",
+    "tags": ["react", "pattern", "component"]
+  }
+]
