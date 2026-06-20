@@ -36,29 +36,17 @@ exemplo.ts  debounce → atraso intencional
 
 ## Instalação
 
+### Extensão VS Code
+
+1. Baixe o `verbo-0.1.0.vsix` na [página de releases](https://github.com/fabriciodsul/soltaoverbo/releases)
+2. Abra o VS Code
+3. `Ctrl+Shift+P` → `Extensions: Install from VSIX` → selecione o arquivo
+4. Reinicie o VS Code
+
 ### CLI
 
 ```bash
 npm install -g @soltaoverbo/cli
-```
-
-### Extensão VS Code
-
-Instale diretamente no VS Code:
-
-```
-Ctrl+P → ext install verbo-dev.verbo
-```
-
-Ou baixe o `.vsix` na [página de releases](https://github.com/fabriciodsul/soltaoverbo/releases) e instale via `Extensions → ··· → Install from VSIX`.
-
-### Clonar e buildar
-
-```bash
-# Pré-requisitos: Node.js 20+ e pnpm 9+
-git clone https://github.com/fabriciodsul/soltaoverbo
-cd soultaoverbo
-pnpm install && pnpm build
 ```
 
 ---
