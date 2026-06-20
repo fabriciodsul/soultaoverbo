@@ -4,6 +4,9 @@ Aprenda inglês técnico passivamente enquanto você coda.
 
 O verbo detecta termos técnicos em inglês no seu código e exibe traduções em pt-BR — sem interromper o fluxo de trabalho. Com repetição espaçada, você absorve o vocabulário gradualmente ao longo dos dias.
 
+[![npm](https://img.shields.io/npm/v/@soltaoverbo/cli)](https://www.npmjs.com/package/@soltaoverbo/cli)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/verbo-dev.verbo)](https://marketplace.visualstudio.com/items?itemName=verbo-dev.verbo)
+
 ---
 
 ## Como funciona
@@ -23,20 +26,37 @@ exemplo.ts  debounce → atraso intencional
 
 ## Pacotes
 
-| Pacote | Descrição |
-|--------|-----------|
-| `@soltaoverbo/core` | Parser, injetor de comentários e sistema de repetição espaçada |
-| `@soltaoverbo/cli` | Interface de linha de comando |
-| `@soltaoverbo/vscode` | Extensão para VS Code com ghost text inline |
+| Pacote | Link | Descrição |
+|--------|------|-----------|
+| `@soltaoverbo/core` | [npm](https://www.npmjs.com/package/@soltaoverbo/core) | Parser, injetor de comentários e sistema de repetição espaçada |
+| `@soltaoverbo/cli` | [npm](https://www.npmjs.com/package/@soltaoverbo/cli) | Interface de linha de comando |
+| `verbo` (VS Code) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=verbo-dev.verbo) | Extensão para VS Code com ghost text inline |
 
 ---
 
 ## Instalação
 
+### CLI
+
+```bash
+npm install -g @soltaoverbo/cli
+```
+
+### Extensão VS Code
+
+Instale pelo [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=verbo-dev.verbo) ou diretamente no VS Code:
+
+```
+Ctrl+P → ext install verbo-dev.verbo
+```
+
+### Clonar e buildar
+
 ```bash
 # Pré-requisitos: Node.js 20+ e pnpm 9+
-pnpm install
-pnpm build
+git clone https://github.com/fabriciodsul/soultaoverbo
+cd soultaoverbo
+pnpm install && pnpm build
 ```
 
 ---
@@ -122,6 +142,8 @@ O verbo controla quantas vezes você viu cada termo. Após 5 sessões diferentes
 ---
 
 ## Extensão VS Code
+
+Instale em [marketplace.visualstudio.com/items?itemName=verbo-dev.verbo](https://marketplace.visualstudio.com/items?itemName=verbo-dev.verbo).
 
 A extensão exibe ghost text inline ao lado das linhas com termos técnicos, sem modificar o arquivo.
 
