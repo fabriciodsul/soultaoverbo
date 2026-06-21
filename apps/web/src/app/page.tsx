@@ -8,7 +8,7 @@ export default function Home() {
         <div className="flex items-center gap-6 text-sm text-black/50">
           <a href="#funciona" className="hover:text-black transition-colors">Como funciona</a>
           <a href="#explain" className="hover:text-black transition-colors">verbo explain</a>
-          <a href="#instalacao" className="hover:text-black transition-colors">Instalacao</a>
+          <a href="#instalacao" className="hover:text-black transition-colors">Instalação</a>
           <a
             href="https://marketplace.visualstudio.com/items?itemName=verbo-dev.verbo"
             target="_blank"
@@ -26,7 +26,7 @@ export default function Home() {
           275 termos · 14 categorias · repetição espaçada
         </div>
         <h1 className="text-shimmer text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
-          Ingles tecnico enquanto voce coda
+          Inglês técnico enquanto você coda
         </h1>
         <p className="text-lg md:text-xl text-black/50 max-w-xl mx-auto leading-relaxed mb-10">
           O verbo detecta termos como <Code>middleware</Code>, <Code>embedding</Code> e <Code>payload</Code> no
@@ -55,7 +55,7 @@ export default function Home() {
             Aprenda sem parar de trabalhar
           </h2>
           <p className="text-black/50 mb-12 max-w-lg">
-            O verbo funciona em segundo plano. Voce codifica, ele ensina.
+            O verbo funciona em segundo plano. Você codifica, ele ensina.
           </p>
 
           <div className="grid md:grid-cols-3 gap-4">
@@ -66,12 +66,12 @@ export default function Home() {
             />
             <FeatureCard
               title="VS Code"
-              description="Ghost text inline ao final de cada linha com a traducao em portugues. Zero configuracao."
+              description="Ghost text inline ao final de cada linha com a tradução em português. Zero configuração."
               example="async → assíncrono / nao bloqueia"
             />
             <FeatureCard
               title="Repeticao espacada"
-              description="Apos ver um termo em 5 sessoes diferentes, ele e marcado como absorvido e sai da rotacao."
+              description="Após ver um termo em 5 sessões diferentes, ele é marcado como absorvido e sai da rotação."
               example="12 vistos · 3 absorvidos"
             />
           </div>
@@ -86,7 +86,7 @@ export default function Home() {
             verbo explain
           </h2>
           <p className="text-black/50 mb-10 max-w-lg">
-            Explica qualquer arquivo linha por linha em portugues via IA. Util para entender codigo
+            Explica qualquer arquivo linha por linha em português via IA. Útil para entender código
             legado, bibliotecas novas ou trechos complexos sem sair do terminal.
           </p>
 
@@ -162,7 +162,7 @@ export default function Home() {
       {/* Instalacao */}
       <section id="instalacao" className="py-20 px-8">
         <div className="max-w-4xl mx-auto">
-          <SectionLabel>Instalacao</SectionLabel>
+          <SectionLabel>Instalação</SectionLabel>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-12">
             Pronto em 30 segundos
           </h2>
@@ -174,7 +174,7 @@ export default function Home() {
                 npm install -g @soltaoverbo/cli
               </div>
               <p className="mt-4 text-sm text-black/40">
-                Depois rode <span className="font-mono text-black/70">verbo start --watch</span> no diretorio do projeto.
+                Depois rode <span className="font-mono text-black/70">verbo start --watch</span> no diretório do projeto.
               </p>
             </div>
             <div>
@@ -200,27 +200,27 @@ export default function Home() {
       <section className="py-16 px-8 border-t border-black/5">
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
-            <p className="text-xs text-black/30 uppercase tracking-widest font-medium mb-1">Da mesma equipe</p>
+            <p className="text-xs text-black/30 uppercase tracking-widest font-medium mb-1">Da Mesma Equipe</p>
             <p className="text-sm text-black/60">
-              Tambem estamos construindo o{" "}
+              Fabricio Guimarães, Julio Sergio e Bruno Carvalho também estão construindo o{" "}
               <a
-                href="https://github.com/fabriciodsul"
+                href="https://www.instagram.com/agoniadoz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold text-black hover:underline"
               >
-                Agoniadoz
+                @Agoniadoz
               </a>
-              {" "}— um copiloto para motoristas de aplicativo.
+              {" "}— um copiloto para motoristas de aplicativo. Vem aí.
             </p>
           </div>
           <a
-            href="https://github.com/fabriciodsul"
+            href="https://www.instagram.com/agoniadoz"
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 px-4 py-2 text-xs font-medium border border-black/15 rounded-full hover:border-black/40 transition-colors"
           >
-            Ver projeto
+            @Agoniadoz
           </a>
         </div>
       </section>
