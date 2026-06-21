@@ -2,12 +2,15 @@ import { defineConfig } from "tsup"
 
 export default defineConfig({
   entry: ["src/extension.ts"],
-  format: ["cjs"],       // VS Code extensions require CommonJS
+  format: ["cjs"],
   target: "node20",
   outDir: "dist",
   clean: true,
   dts: false,
   sourcemap: true,
-  external: ["vscode"], // VS Code API injected by the host
-  noExternal: ["@soltaoverbo/core"], // Bundle core inline — extension is self-contained
+  external: ["vscode"],
+  noExternal: ["@soltaoverbo/core"],
+  esbuildOptions(options) {
+    options.charset = "utf8"
+  },
 })

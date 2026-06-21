@@ -18,10 +18,19 @@
     "tags": ["async", "javascript"]
   },
   {
-    "id": "async-await",
-    "term": "async/await",
-    "translation": "assíncrono / aguardar",
-    "explanation": "sintaxe que permite escrever código assíncrono como se fosse síncrono",
+    "id": "async",
+    "term": "async",
+    "translation": "assíncrono / não bloqueia",
+    "explanation": "marca uma função que pode pausar e retomar — permite operações de I/O sem travar a thread",
+    "category": "general",
+    "level": "beginner",
+    "tags": ["async", "javascript", "typescript"]
+  },
+  {
+    "id": "await",
+    "term": "await",
+    "translation": "aguardar / esperar resultado",
+    "explanation": "pausa a função async até a Promise resolver, liberando a thread para outras tarefas enquanto espera",
     "category": "general",
     "level": "beginner",
     "tags": ["async", "javascript", "typescript"]

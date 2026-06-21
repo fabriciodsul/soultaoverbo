@@ -1,0 +1,92 @@
+[
+  {
+    "id": "list-comprehension",
+    "term": "list comprehension",
+    "translation": "compreensão de lista",
+    "explanation": "sintaxe concisa para criar listas: [x*2 for x in range(10) if x > 3] — mais legível que loops equivalentes",
+    "category": "python",
+    "level": "beginner",
+    "tags": ["python", "list", "syntax"]
+  },
+  {
+    "id": "context-manager",
+    "term": "context manager",
+    "translation": "gerenciador de contexto",
+    "explanation": "objeto que define ações de entrada e saída com with — garante limpeza de recursos mesmo com exceções",
+    "category": "python",
+    "level": "intermediate",
+    "tags": ["python", "resource", "with"]
+  },
+  {
+    "id": "dunder",
+    "term": "dunder method",
+    "translation": "método especial / método mágico",
+    "explanation": "métodos com duplo underscore como __init__, __str__, __len__ — definem comportamento de operadores e funções builtin",
+    "category": "python",
+    "level": "intermediate",
+    "tags": ["python", "oop", "magic"]
+  },
+  {
+    "id": "unpacking",
+    "term": "unpacking",
+    "translation": "desempacotamento",
+    "explanation": "extrai elementos de uma sequência em variáveis: a, b, *rest = [1,2,3,4,5] — similar ao destructuring do JS",
+    "category": "python",
+    "level": "beginner",
+    "tags": ["python", "tuple", "list"]
+  },
+  {
+    "id": "lambda",
+    "term": "lambda",
+    "translation": "função anônima / função lambda",
+    "explanation": "função de uma linha sem nome: lambda x: x*2 — usada em argumentos de funções como map e filter",
+    "category": "python",
+    "level": "beginner",
+    "tags": ["python", "function", "functional"]
+  },
+  {
+    "id": "metaclass",
+    "term": "metaclass",
+    "translation": "metaclasse",
+    "explanation": "classe que define como outras classes se comportam — permite customizar criação de classes em Python",
+    "category": "python",
+    "level": "advanced",
+    "tags": ["python", "oop", "meta"]
+  },
+  {
+    "id": "gil",
+    "term": "GIL",
+    "translation": "bloqueio global do interpretador",
+    "explanation": "trava que impede múltiplas threads Python de executar bytecode simultaneamente — limita paralelismo real em threads",
+    "category": "python",
+    "level": "advanced",
+    "tags": ["python", "thread", "concurrency"]
+  },
+  {
+    "id": "type-hints",
+    "term": "type hints",
+    "translation": "dicas de tipo / anotações de tipo",
+    "explanation": "anotações opcionais que indicam o tipo esperado de variáveis e retornos — não são validadas em runtime mas ajudam ferramentas",
+    "category": "python",
+    "level": "intermediate",
+    "tags": ["python", "typing", "mypy"]
+  },
+  {
+    "id": "walrus",
+    "term": "walrus operator",
+    "translation": "operador morsa",
+    "explanation": "operador := que atribui e retorna valor ao mesmo tempo — atribui e testa numa única expressão",
+    "category": "python",
+    "level": "intermediate",
+    "tags": ["python", "operator", "syntax"]
+  },
+  {
+    "id": "dataclass",
+    "term": "dataclass",
+    "translation": "classe de dados",
+    "explanation": "decorator @dataclass que gera automaticamente __init__, __repr__ e __eq__ baseado nas anotações de tipo da classe",
+    "category": "python",
+    "level": "intermediate",
+    "tags": ["python", "class", "boilerplate"]
+  }
+]

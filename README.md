@@ -24,10 +24,38 @@ exemplo.ts  payload → carga útil / dados da requisição
 ```
 
 **No VS Code (ghost text inline):**
-```typescript
-const cache = new Map()           // cache → armazenamento temporário
-const callback = (data) => { }    // callback → função de retorno / chamada de volta
+```javascript
+require('dotenv').config()                  // require → importar módulo (CommonJS)
+const items = list.filter(x => x.active)   // filter → filtrar / selecionar por condição
+async function load() {                     // async → assíncrono / não bloqueia
+  const data = await fetch(url)            // await → aguardar / esperar resultado
+  return data.find(x => x.id === id)       // find → encontrar o primeiro que satisfaz
+}
 ```
+
+A barra de status mostra seu progresso em tempo real:
+
+```
+$(book) verbo: 3 hoje
+```
+
+### Comandos VS Code
+
+Abra a paleta de comandos (`Ctrl+Shift+P` / `Cmd+Shift+P`) e busque por **Verbo**:
+
+| Comando | Descrição |
+|---------|-----------|
+| `Verbo: Ver Progresso de Aprendizado` | Exibe estatísticas da sessão atual |
+| `Verbo: Ativar / Desativar Anotações` | Liga ou desliga o ghost text globalmente |
+| `Verbo: Anotar Arquivo Atual Agora` | Força a anotação imediata do arquivo aberto |
+| `Verbo: Resetar Histórico` | Limpa todo o histórico de aprendizado |
+
+### Configuração VS Code
+
+| Propriedade | Padrão | Descrição |
+|-------------|--------|-----------|
+| `verbo.enabled` | `true` | Ativa ou desativa as anotações inline |
+| `verbo.languages` | 20+ linguagens | Lista de linguagens onde as anotações aparecem |
 
 ---
 
@@ -113,16 +141,24 @@ O verbo controla quantas vezes você viu cada termo. Após 5 sessões diferentes
 
 ## Termos disponíveis
 
-157 termos em 6 categorias, detectados automaticamente em 20+ linguagens:
+275 termos em 14 categorias, detectados automaticamente em 20+ linguagens:
 
 | Categoria | Exemplos |
 |-----------|---------|
-| `general` | callback, closure, decorator, factory, higher-order function |
-| `backend` | middleware, JWT, GraphQL, retry, interceptor |
-| `frontend` | hydration, hook, PWA, service worker, composable |
-| `devops` | pipeline, canary, autoscaling, tracing, sidecar |
-| `data` | index, ACID, sharding, DTO, hot path |
-| `ai` | embedding, RAG, LLM, hallucination, fine-tuning |
+| `general` | async, await, callback, closure, decorator, factory, higher-order function |
+| `backend` | middleware, JWT, GraphQL, retry, interceptor, socket, webhook |
+| `frontend` | hydration, hook, PWA, service worker, composable, emit |
+| `devops` | pipeline, canary, autoscaling, tracing, sidecar, ingress |
+| `data` | index, ACID, sharding, DTO, hot path, upsert |
+| `ai` | embedding, RAG, LLM, hallucination, fine-tuning, streaming |
+| `javascript` | const, let, for, if, filter, find, event loop, prototype, hoisting |
+| `python` | list comprehension, context manager, lambda, dataclass, type hints, GIL |
+| `architecture` | microservices, event-driven, CQRS, circuit breaker, saga, SOLID |
+| `git` | commit, branch, merge, rebase, cherry-pick, stash, pull request |
+| `performance` | latency, throughput, bottleneck, CDN, N+1 problem, profiling |
+| `security` | XSS, SQL injection, CSRF, encryption, hashing, RBAC, zero trust |
+| `testing` | mock, stub, spy, TDD, flaky test, snapshot test, fixture |
+| `typescript` | union type, mapped type, readonly, tuple, satisfies, infer |
 
 **Linguagens suportadas:** TypeScript, JavaScript, Python, Go, Rust, Java, Kotlin, Ruby, PHP, C#, Swift, Dart, Scala, Elixir, Shell, SQL, Lua, C, C++ e mais.
 

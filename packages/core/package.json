@@ -1,6 +1,6 @@
 {
   "name": "@soltaoverbo/core",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Core logic for verbo.dev — parser, injector and spaced repetition",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

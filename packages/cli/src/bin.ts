@@ -21,7 +21,7 @@ if (process.platform === "win32") {
   }
 }
 
-const VERSION = "0.2.0"
+const VERSION = "0.3.0"
 const [, , sub, ...rest] = process.argv
 
 function help(): void {
@@ -39,7 +39,7 @@ function help(): void {
     ${bold("install")}                Injeta termos no Claude Code (barra de pensamento)
     ${bold("reset")}                  Limpa todo o histórico
     ${bold("list")}                   Lista todos os termos disponíveis
-    ${bold("list --category")} ${dim("<cat>")}  Filtra por: general, backend, frontend, devops, data, ai
+    ${bold("list --category")} ${dim("<cat>")}  Filtra por: general, backend, frontend, devops, data, ai, javascript, python, architecture, git, performance, security, testing, typescript
     ${bold("list --absorbed")}        Inclui termos já absorvidos
 
   ${bold("EXEMPLOS")}

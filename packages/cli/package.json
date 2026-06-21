@@ -1,6 +1,6 @@
 {
   "name": "@soltaoverbo/cli",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "CLI para verbo.dev — aprenda inglês técnico passivamente",
   "bin": {
     "verbo": "./dist/bin.js"

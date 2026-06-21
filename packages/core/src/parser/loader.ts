@@ -6,6 +6,14 @@ import frontendTerms from "../../../../data/terms/frontend.json"
 import devopsTerms from "../../../../data/terms/devops.json"
 import dataTerms from "../../../../data/terms/data.json"
 import aiTerms from "../../../../data/terms/ai.json"
+import javascriptTerms from "../../../../data/terms/javascript.json"
+import pythonTerms from "../../../../data/terms/python.json"
+import architectureTerms from "../../../../data/terms/architecture.json"
+import gitTerms from "../../../../data/terms/git.json"
+import performanceTerms from "../../../../data/terms/performance.json"
+import securityTerms from "../../../../data/terms/security.json"
+import testingTerms from "../../../../data/terms/testing.json"
+import typescriptTerms from "../../../../data/terms/typescript.json"
 
 export interface Term {
   id: string
@@ -25,6 +33,14 @@ const BUILT_IN: Term[] = [
   ...(devopsTerms as unknown as Term[]),
   ...(dataTerms as unknown as Term[]),
   ...(aiTerms as unknown as Term[]),
+  ...(javascriptTerms as unknown as Term[]),
+  ...(pythonTerms as unknown as Term[]),
+  ...(architectureTerms as unknown as Term[]),
+  ...(gitTerms as unknown as Term[]),
+  ...(performanceTerms as unknown as Term[]),
+  ...(securityTerms as unknown as Term[]),
+  ...(testingTerms as unknown as Term[]),
+  ...(typescriptTerms as unknown as Term[]),
 ]
 
 /**

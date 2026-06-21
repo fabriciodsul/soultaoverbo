@@ -1,0 +1,362 @@
+[
+  {
+    "id": "filter-method",
+    "term": "filter",
+    "translation": "filtrar / selecionar por condição",
+    "explanation": "percorre o array e retorna um novo com apenas os itens que passam no teste da função",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["array", "functional", "javascript"]
+  },
+  {
+    "id": "find-method",
+    "term": "find",
+    "translation": "encontrar o primeiro que satisfaz",
+    "explanation": "retorna o primeiro item do array que passa na condição — undefined se nenhum passar",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["array", "search", "javascript"]
+  },
+  {
+    "id": "map-method",
+    "term": "map",
+    "translation": "transformar cada item do array",
+    "explanation": "aplica uma função em cada item e retorna um novo array com os resultados — não altera o original",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["array", "functional", "javascript"]
+  },
+  {
+    "id": "reduce-method",
+    "term": "reduce",
+    "translation": "reduzir / acumular em único valor",
+    "explanation": "aplica uma função acumuladora em cada item, reduzindo o array a um único resultado",
+    "category": "javascript",
+    "level": "intermediate",
+    "tags": ["array", "functional", "javascript"]
+  },
+  {
+    "id": "foreach-method",
+    "term": "forEach",
+    "translation": "para cada item / iterar sem retorno",
+    "explanation": "executa uma função para cada item do array — não cria novo array, usado para efeitos colaterais",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["array", "iteration", "javascript"]
+  },
+  {
+    "id": "includes-method",
+    "term": "includes",
+    "translation": "contém / verifica se está presente",
+    "explanation": "retorna true se o array ou string contém o valor buscado — comparação estrita por valor",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["array", "string", "search"]
+  },
+  {
+    "id": "push-method",
+    "term": "push",
+    "translation": "empurrar / adicionar ao final",
+    "explanation": "adiciona um ou mais elementos no final do array e retorna o novo tamanho — modifica o original",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["array", "mutation", "javascript"]
+  },
+  {
+    "id": "slice-method",
+    "term": "slice",
+    "translation": "fatiar / recortar trecho",
+    "explanation": "retorna uma cópia de parte do array ou string entre os índices dados — não modifica o original",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["array", "string", "javascript"]
+  },
+  {
+    "id": "split-method",
+    "term": "split",
+    "translation": "dividir / separar string em partes",
+    "explanation": "quebra uma string em array usando um separador — ex: 'a,b,c'.split(',') → ['a','b','c']",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["string", "array", "javascript"]
+  },
+  {
+    "id": "try-keyword",
+    "term": "try",
+    "translation": "tentar / bloco que pode falhar",
+    "explanation": "envolve código que pode lançar erro — se ocorrer, o controle vai para o bloco catch",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["error-handling", "javascript"]
+  },
+  {
+    "id": "catch-keyword",
+    "term": "catch",
+    "translation": "capturar / interceptar o erro",
+    "explanation": "recebe e trata o erro lançado pelo try ou por uma Promise rejeitada — evita crash da aplicação",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["error-handling", "promise", "javascript"]
+  },
+  {
+    "id": "throw-keyword",
+    "term": "throw",
+    "translation": "lançar / disparar erro manualmente",
+    "explanation": "interrompe a execução e envia um erro para o catch mais próximo — pode lançar qualquer valor",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["error-handling", "javascript"]
+  },
+  {
+    "id": "require-commonjs",
+    "term": "require",
+    "translation": "importar módulo (CommonJS)",
+    "explanation": "carrega e retorna um módulo Node.js em tempo de execução — equivalente ao import do ESM",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["modules", "nodejs", "commonjs"]
+  },
+  {
+    "id": "typeof-operator",
+    "term": "typeof",
+    "translation": "tipo de / checar tipo primitivo",
+    "explanation": "operador que retorna o tipo de um valor como string: 'string', 'number', 'boolean', 'object'",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["type", "operator", "javascript"]
+  },
+  {
+    "id": "instanceof-operator",
+    "term": "instanceof",
+    "translation": "instância de / é desse tipo?",
+    "explanation": "verifica se um objeto foi criado por um construtor específico ou herda dele na cadeia de protótipos",
+    "category": "javascript",
+    "level": "intermediate",
+    "tags": ["type", "oop", "prototype"]
+  },
+  {
+    "id": "extends-keyword",
+    "term": "extends",
+    "translation": "herdar de / estender classe pai",
+    "explanation": "faz uma classe herdar todos os métodos e propriedades de outra — base da herança em OOP",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["oop", "class", "inheritance"]
+  },
+  {
+    "id": "entries-method",
+    "term": "entries",
+    "translation": "entradas / pares chave-valor",
+    "explanation": "retorna iterador com arrays [chave, valor] — usado em Object.entries() ou Map.entries()",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["object", "iteration", "javascript"]
+  },
+  {
+    "id": "console-object",
+    "term": "console",
+    "translation": "console / saída para o terminal",
+    "explanation": "objeto global com métodos para imprimir no terminal: .log, .error, .warn, .table, .time",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["debugging", "nodejs", "javascript"]
+  },
+  {
+    "id": "env-vars",
+    "term": "env",
+    "translation": "variáveis de ambiente",
+    "explanation": "configurações externas ao código (senhas, URLs, chaves de API) lidas via process.env — nunca hardcode",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["nodejs", "security", "configuration"]
+  },
+  {
+    "id": "null-value",
+    "term": "null",
+    "translation": "nulo / ausência intencional de valor",
+    "explanation": "valor explícito que representa 'sem valor' — diferente de undefined que é 'não atribuído'",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "type", "null-safety"]
+  },
+  {
+    "id": "undefined-value",
+    "term": "undefined",
+    "translation": "indefinido / não foi atribuído",
+    "explanation": "valor padrão de variáveis declaradas mas não inicializadas — também retornado por funções sem return",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "type", "null-safety"]
+  },
+  {
+    "id": "const-keyword",
+    "term": "const",
+    "translation": "constante / não pode ser reatribuída",
+    "explanation": "declara uma variável que não pode ser reatribuída após a definição — objetos internos ainda podem mudar",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "variable", "keyword"]
+  },
+  {
+    "id": "let-keyword",
+    "term": "let",
+    "translation": "variável de bloco / pode mudar",
+    "explanation": "declara uma variável com escopo de bloco que pode ser reatribuída — substitui o var moderno",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "variable", "keyword"]
+  },
+  {
+    "id": "var-keyword",
+    "term": "var",
+    "translation": "variável global legada / evite",
+    "explanation": "declara variável com escopo de função (não de bloco) — vazamentos de escopo são comuns; prefira const ou let",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "variable", "legacy"]
+  },
+  {
+    "id": "function-keyword",
+    "term": "function",
+    "translation": "função / bloco de código reutilizável",
+    "explanation": "declara um bloco de código nomeado que pode ser chamado várias vezes com argumentos diferentes",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "function", "keyword"]
+  },
+  {
+    "id": "for-keyword",
+    "term": "for",
+    "translation": "laço / repetir para cada item",
+    "explanation": "executa um bloco de código repetidamente — for...of itera valores, for...in itera chaves",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "loop", "keyword"]
+  },
+  {
+    "id": "if-keyword",
+    "term": "if",
+    "translation": "se / executar somente se verdadeiro",
+    "explanation": "executa o bloco apenas se a condição for verdadeira — base de toda lógica condicional",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "conditional", "keyword"]
+  },
+  {
+    "id": "else-keyword",
+    "term": "else",
+    "translation": "senão / alternativa ao if",
+    "explanation": "bloco executado quando a condição do if é falsa — pode ser encadeado com else if",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "conditional", "keyword"]
+  },
+  {
+    "id": "return-keyword",
+    "term": "return",
+    "translation": "retornar / encerra e devolve valor",
+    "explanation": "encerra a execução da função e devolve um valor para quem a chamou — sem return, retorna undefined",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "function", "keyword"]
+  },
+  {
+    "id": "new-keyword",
+    "term": "new",
+    "translation": "instanciar / criar objeto com construtor",
+    "explanation": "cria uma nova instância de uma classe ou função construtora — aloca memória e chama o constructor",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "oop", "keyword"]
+  },
+  {
+    "id": "class-keyword",
+    "term": "class",
+    "translation": "classe / modelo para criar objetos",
+    "explanation": "define um modelo com propriedades e métodos — instâncias são criadas com new e compartilham o prototype",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "oop", "keyword"]
+  },
+  {
+    "id": "hoisting",
+    "term": "hoisting",
+    "translation": "içamento / elevação de declarações",
+    "explanation": "comportamento do JS de mover declarações de variáveis e funções para o topo do escopo antes da execução",
+    "category": "javascript",
+    "level": "intermediate",
+    "tags": ["javascript", "scope", "var"]
+  },
+  {
+    "id": "event-loop",
+    "term": "event loop",
+    "translation": "laço de eventos",
+    "explanation": "mecanismo que processa a fila de callbacks após o call stack esvaziar — permite JS ser assíncrono mesmo sendo single-thread",
+    "category": "javascript",
+    "level": "intermediate",
+    "tags": ["async", "javascript", "runtime"]
+  },
+  {
+    "id": "prototype",
+    "term": "prototype",
+    "translation": "protótipo / objeto ancestral",
+    "explanation": "objeto do qual outro herda propriedades e métodos — base da herança em JavaScript",
+    "category": "javascript",
+    "level": "intermediate",
+    "tags": ["javascript", "oop", "inheritance"]
+  },
+  {
+    "id": "strict-mode",
+    "term": "strict mode",
+    "translation": "modo estrito",
+    "explanation": "ativa restrições extras no JS: proíbe variáveis não declaradas, palavras reservadas como nome, e outros erros silenciosos",
+    "category": "javascript",
+    "level": "beginner",
+    "tags": ["javascript", "error", "syntax"]
+  },
+  {
+    "id": "iife",
+    "term": "IIFE",
+    "translation": "função imediatamente invocada",
+    "explanation": "função que se define e executa ao mesmo tempo — usada para criar escopo privado e evitar poluição do namespace global",
+    "category": "javascript",
+    "level": "intermediate",
+    "tags": ["javascript", "scope", "pattern"]
+  },
+  {
+    "id": "symbol-type",
+    "term": "Symbol",
+    "translation": "símbolo / identificador único",
+    "explanation": "tipo primitivo que garante valores únicos — útil como chaves de objeto que nunca colidem com outras",
+    "category": "javascript",
+    "level": "advanced",
+    "tags": ["javascript", "type", "es6"]
+  },
+  {
+    "id": "generator",
+    "term": "generator",
+    "translation": "gerador / função pausável",
+    "explanation": "função que pode pausar e retomar execução com yield — útil para sequências infinitas e iteração sob demanda",
+    "category": "javascript",
+    "level": "advanced",
+    "tags": ["javascript", "async", "iterator"]
+  },
+  {
+    "id": "reflect",
+    "term": "Reflect",
+    "translation": "reflexão / API de meta-programação",
+    "explanation": "API que expõe operações internas do JS como métodos chamáveis — complemento do Proxy",
+    "category": "javascript",
+    "level": "advanced",
+    "tags": ["javascript", "meta", "es6"]
+  },
+  {
+    "id": "weakmap",
+    "term": "WeakMap",
+    "translation": "mapa fraco",
+    "explanation": "mapa cujas chaves são objetos coletados pelo garbage collector quando não há mais referências — evita vazamentos de memória",
+    "category": "javascript",
+    "level": "advanced",
+    "tags": ["javascript", "memory", "es6"]
+  }
+]
